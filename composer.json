@@ -1,0 +1,29 @@
+{
+    "name": "rene-roscher/ph24-php-client",
+    "description": "A full-featured implementation of the Reseller Interface JsonApi",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": ">=6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rene Roscher",
+            "email": "roscher794@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Ph24\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "tests/Ph24Facade.php"
+        ]
+    }
+}
