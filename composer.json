@@ -15,6 +15,7 @@
             "email": "roscher794@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Ph24\\": "src/"
