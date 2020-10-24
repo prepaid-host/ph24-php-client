@@ -1,5 +1,5 @@
 {
-    "name": "rene-roscher/ph24-php-client",
+    "name": "prepaid-host/ph-php-client",
     "description": "A full-featured implementation of the Reseller Interface JsonApi",
     "type": "library",
     "require": {
@@ -11,8 +11,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Rene Roscher",
-            "email": "roscher794@gmail.com"
+            "name": "Christopher Sakel",
+            "email": "c.sakel@prepaid-host.com"
         }
     ],
     "minimum-stability": "dev",
