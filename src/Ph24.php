@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Rene_Roscher
- * Date: 09.09.2018
- * Time: 18:22
- */
 
 namespace Ph24;
 
