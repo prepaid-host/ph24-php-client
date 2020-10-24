@@ -28,7 +28,7 @@ class Ph24
     public function __construct($token)
     {
         $this->token = $token;
-        $this->url = 'https://start.infectedev.eu/api/'.$token.'/';
+        $this->url = 'https://reseller.prepaid-host.com/api/'.$token.'/';
         $this->httpClient = new Client([
             'allow_redirects' => false,
             'timeout' => 120
