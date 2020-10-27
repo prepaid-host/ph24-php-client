@@ -22,7 +22,7 @@ class Ph24
     public function __construct($token)
     {
         $this->token = $token;
-        $this->url = 'https://reseller.prepaid-host.com/api/'.$token.'/';
+        $this->url = 'https://reseller.prepaid-host.com/api/';
         $this->httpClient = new Client([
             'allow_redirects' => false,
             'timeout' => 120
@@ -65,6 +65,7 @@ class Ph24
 
         $params['config'] = [];
         $params['config']['timezone'] = 'UTC';
+        $params['authToken'] = "Ddtt-LCKa-ridA-Mtcf-igsp-elzo-dPId-JOdk-hOlo-Atze-SsKF-cJon";
         $params = $this->formatValues($params);
 
         switch ($method) {
