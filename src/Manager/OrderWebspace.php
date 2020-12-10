@@ -43,7 +43,7 @@ class OrderWebspace
             'ftp' => $ftp,
             'domain' => $domain,
             'runtime' => $runtime
-        ], 'orderwebspace');
+        ], 'OrderWebspace');
     }
 
     /**
@@ -54,7 +54,7 @@ class OrderWebspace
     {
         return $this->ph24->get([
             'id' => $id,
-        ], 'orderwebspace');
+        ], 'OrderWebspace');
     }
 
 }
